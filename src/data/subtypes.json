@@ -1,0 +1,1310 @@
+{
+    "subtypeDefinitions": {
+        "A": {
+            "code": "A",
+            "name": "果斷型",
+            "fullName": "Assertive",
+            "description": "高情緒穩定性與強目標導向，自信抗壓，決策迅速"
+        },
+        "O": {
+            "code": "O",
+            "name": "糾結型",
+            "fullName": "Turbulent/Obsessive",
+            "description": "高情緒敏感度與細節關注，深思熟慮但容易內耗"
+        },
+        "H": {
+            "code": "H",
+            "name": "溫暖型",
+            "fullName": "Hospitable/Harmony",
+            "description": "重視人際關係與情感連結，親和力強，善於共情"
+        },
+        "C": {
+            "code": "C",
+            "name": "高冷型",
+            "fullName": "Chilly/Calm",
+            "description": "保持情感距離，重視邏輯界限與獨立性"
+        }
+    },
+    "subtypes": {
+        "INTJ-AH": {
+            "code": "INTJ-AH",
+            "baseType": "INTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型建築師",
+            "archetype": "溫柔的戰略家",
+            "description": "結合了 INTJ 的戰略遠見與高度的社會適應力。他們既有堅定的目標感，又能靈活處理人際關係，是少見的能將願景落地且不傷害團隊的領導者。",
+            "strengths": [
+                "戰略執行力",
+                "團隊凝聚力",
+                "情商與智商並重"
+            ],
+            "challenges": [
+                "可能過度照顧他人而犧牲效率"
+            ],
+            "growthTip": "學會適時說「不」，保護自己的精力"
+        },
+        "INTJ-AC": {
+            "code": "INTJ-AC",
+            "baseType": "INTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型建築師",
+            "archetype": "孤高的謀略師",
+            "description": "這是最典型、最「純粹」的 INTJ。他們極度專注於目標，對無效社交缺乏耐心。給人高不可攀的印象，對目標的執著帶有強勢色彩。",
+            "strengths": [
+                "極致專注力",
+                "獨立決策",
+                "高效執行"
+            ],
+            "challenges": [
+                "容易被誤解為冷漠或傲慢"
+            ],
+            "growthTip": "偶爾展現脆弱面，能拉近與他人的距離"
+        },
+        "INTJ-OH": {
+            "code": "INTJ-OH",
+            "baseType": "INTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型建築師",
+            "archetype": "體貼的思想家",
+            "description": "內心有著豐富的情感世界，對他人的需求高度敏感。雖然有遠見，但常在追求完美與照顧他人之間猶豫，是 INTJ 中最具同理心的類型。",
+            "strengths": [
+                "深度思考",
+                "細膩觀察",
+                "善解人意"
+            ],
+            "challenges": [
+                "容易因為過度思考而延遲行動"
+            ],
+            "growthTip": "設定明確的決策截止時間，避免無限期思考"
+        },
+        "INTJ-OC": {
+            "code": "INTJ-OC",
+            "baseType": "INTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型建築師",
+            "archetype": "嚴苛的審視者",
+            "description": "結合了敏感與疏離。對人際關係有極高的精神潔癖，一旦發現對方不符合標準，會迅速切斷連結。在糾結中保持冷漠，容易陷入孤立。",
+            "strengths": [
+                "高標準",
+                "獨立思考",
+                "深度分析"
+            ],
+            "challenges": [
+                "容易陷入 Ni-Fi 迴圈，過度自我審視"
+            ],
+            "growthTip": "與信任的人分享你的想法，打破思維孤島"
+        },
+        "INTP-AH": {
+            "code": "INTP-AH",
+            "baseType": "INTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型邏輯學家",
+            "archetype": "親切的分析師",
+            "description": "罕見地結合了邏輯思維與社交親和力。他們能將複雜的概念以通俗易懂的方式解釋給他人，是優秀的教師和導師。",
+            "strengths": [
+                "知識傳播",
+                "邏輯清晰",
+                "人際和諧"
+            ],
+            "challenges": [
+                "可能因為社交而分散研究精力"
+            ],
+            "growthTip": "預留固定的獨處時間進行深度思考"
+        },
+        "INTP-AC": {
+            "code": "INTP-AC",
+            "baseType": "INTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型邏輯學家",
+            "archetype": "純粹的邏輯機器",
+            "description": "極度專注於邏輯和理論，對社交寒暄毫無興趣。他們沉浸在自己的思維世界中，追求知識的純粹性。",
+            "strengths": [
+                "深度研究",
+                "客觀分析",
+                "獨立判斷"
+            ],
+            "challenges": [
+                "可能被視為不近人情"
+            ],
+            "growthTip": "嘗試理解他人的情感邏輯，這也是一種有趣的系統"
+        },
+        "INTP-OH": {
+            "code": "INTP-OH",
+            "baseType": "INTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型邏輯學家",
+            "archetype": "敏感的思想者",
+            "description": "在邏輯與情感之間掙扎。他們希望自己的想法被理解和認可，但又不確定如何表達。是 INTP 中最渴望連結的類型。",
+            "strengths": [
+                "深度理解",
+                "情感智慧",
+                "創意思維"
+            ],
+            "challenges": [
+                "容易因為害怕被誤解而不敢表達"
+            ],
+            "growthTip": "先寫下想法，再決定是否分享"
+        },
+        "INTP-OC": {
+            "code": "INTP-OC",
+            "baseType": "INTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型邏輯學家",
+            "archetype": "孤獨的探索者",
+            "description": "深陷於自己的思維迷宮中，對外界保持距離。他們可能有許多未完成的理論，因為不斷質疑自己的結論。",
+            "strengths": [
+                "批判性思維",
+                "深度分析",
+                "獨立研究"
+            ],
+            "challenges": [
+                "容易陷入分析癱瘓"
+            ],
+            "growthTip": "設定「足夠好」的標準，允許不完美的輸出"
+        },
+        "ENTJ-AH": {
+            "code": "ENTJ-AH",
+            "baseType": "ENTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型指揮官",
+            "archetype": "魅力領袖",
+            "description": "結合了強大的執行力與人際魅力。他們不僅能推動目標達成，還能激勵團隊士氣。是最理想的變革型領導者。",
+            "strengths": [
+                "領導魅力",
+                "團隊激勵",
+                "戰略執行"
+            ],
+            "challenges": [
+                "可能過度承擔責任"
+            ],
+            "growthTip": "學會授權，相信團隊的能力"
+        },
+        "ENTJ-AC": {
+            "code": "ENTJ-AC",
+            "baseType": "ENTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型指揮官",
+            "archetype": "鐵腕統帥",
+            "description": "這是最典型的 ENTJ 形象——果斷、高效、不妥協。他們以結果為導向，可能在達成目標的過程中忽略他人的感受。",
+            "strengths": [
+                "決策果斷",
+                "效率極高",
+                "目標導向"
+            ],
+            "challenges": [
+                "容易被視為獨裁或無情"
+            ],
+            "growthTip": "成功不僅是達成目標，也包括帶領團隊一起成長"
+        },
+        "ENTJ-OH": {
+            "code": "ENTJ-OH",
+            "baseType": "ENTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型指揮官",
+            "archetype": "反思型領導者",
+            "description": "在追求效率與照顧他人之間努力平衡。他們會花更多時間傾聽團隊意見，但這也可能導致決策速度變慢。",
+            "strengths": [
+                "團隊導向",
+                "深思熟慮",
+                "人性化管理"
+            ],
+            "challenges": [
+                "可能因為顧慮太多而錯失機會"
+            ],
+            "growthTip": "有時候快速決定比完美決定更重要"
+        },
+        "ENTJ-OC": {
+            "code": "ENTJ-OC",
+            "baseType": "ENTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型指揮官",
+            "archetype": "內斂的戰略家",
+            "description": "外表冷靜但內心有著激烈的思考。他們對自己的決策反覆審視，可能給人一種難以捉摸的感覺。",
+            "strengths": [
+                "深度思考",
+                "風險評估",
+                "謹慎決策"
+            ],
+            "challenges": [
+                "可能顯得猶豫不決"
+            ],
+            "growthTip": "信任你的第一直覺，它通常是對的"
+        },
+        "ENTP-AH": {
+            "code": "ENTP-AH",
+            "baseType": "ENTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型辯論家",
+            "archetype": "魅力說服家",
+            "description": "結合了創新思維與社交魅力。他們不僅能產生絕妙的點子，還能有效地說服他人接受。是出色的談判者和創業者。",
+            "strengths": [
+                "創意說服",
+                "人際影響",
+                "靈活應變"
+            ],
+            "challenges": [
+                "可能承諾過多而難以兌現"
+            ],
+            "growthTip": "學會量力而行，專注於最重要的幾個項目"
+        },
+        "ENTP-AC": {
+            "code": "ENTP-AC",
+            "baseType": "ENTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型辯論家",
+            "archetype": "尖銳的挑戰者",
+            "description": "極度自信且不在乎他人看法。他們享受智力上的較量，但可能因為過於尖銳而得罪人。",
+            "strengths": [
+                "批判性思維",
+                "獨立創新",
+                "智力自信"
+            ],
+            "challenges": [
+                "容易被視為傲慢或刻薄"
+            ],
+            "growthTip": "挑戰觀點可以溫和而有力"
+        },
+        "ENTP-OH": {
+            "code": "ENTP-OH",
+            "baseType": "ENTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型辯論家",
+            "archetype": "敏感的創意者",
+            "description": "有著豐富的創意，但在乎他人的反饋。他們可能在追求創新與維持關係之間感到矛盾。",
+            "strengths": [
+                "創意豐富",
+                "人際敏感",
+                "適應力強"
+            ],
+            "challenges": [
+                "可能因為在意他人而壓抑自己的想法"
+            ],
+            "growthTip": "真正的朋友會欣賞你的獨特觀點"
+        },
+        "ENTP-OC": {
+            "code": "ENTP-OC",
+            "baseType": "ENTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型辯論家",
+            "archetype": "內省的革新者",
+            "description": "外表疏離但內心充滿想法。他們可能花大量時間在腦中辯論，卻不一定將想法付諸實踐。",
+            "strengths": [
+                "深度思考",
+                "獨立創新",
+                "批判分析"
+            ],
+            "challenges": [
+                "容易陷入思維但不行動"
+            ],
+            "growthTip": "不完美的行動勝過完美的計劃"
+        },
+        "INFJ-AH": {
+            "code": "INFJ-AH",
+            "baseType": "INFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型提倡者",
+            "archetype": "慈悲的領導者",
+            "description": "社會適應性最強的 INFJ。結合了自信與親和力，像變色龍般能適應各種場合，但不會迷失核心目標。是天生的導師與啟發者。",
+            "strengths": [
+                "激勵他人",
+                "洞察人心",
+                "堅定目標"
+            ],
+            "challenges": [
+                "可能過度承擔他人的情緒"
+            ],
+            "growthTip": "設定清晰的情緒界限，保護自己的能量"
+        },
+        "INFJ-AC": {
+            "code": "INFJ-AC",
+            "baseType": "INFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型提倡者",
+            "archetype": "孤高的先知",
+            "description": "極度專注於自己的願景，對無效社交缺乏耐心。給人仙氣或高不可攀的印象，行為模式有時更接近 INTJ。",
+            "strengths": [
+                "願景專注",
+                "獨立追求",
+                "深層洞見"
+            ],
+            "challenges": [
+                "容易被誤解為冷漠"
+            ],
+            "growthTip": "適時分享你的想法，讓他人理解你的用意"
+        },
+        "INFJ-OH": {
+            "code": "INFJ-OH",
+            "baseType": "INFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型提倡者",
+            "archetype": "殉道的療癒者",
+            "description": "最典型、最柔軟的 INFJ。內心極度敏感，容易因為不想傷害他人與過度反省自己而陷入內耗。是朋友圈中最受歡迎的傾聽者。",
+            "strengths": [
+                "深度共情",
+                "療癒他人",
+                "忠誠可靠"
+            ],
+            "challenges": [
+                "容易承擔過多情緒垃圾"
+            ],
+            "growthTip": "你無法治癒每個人，先照顧好自己"
+        },
+        "INFJ-OC": {
+            "code": "INFJ-OC",
+            "baseType": "INFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型提倡者",
+            "archetype": "嚴苛的審判者",
+            "description": "結合了敏感與疏離。對人際關係有極高的精神潔癖，一旦發現對方不符合道德標準，會迅速切斷連結（Door-slam）。",
+            "strengths": [
+                "高道德標準",
+                "深度分析",
+                "獨立判斷"
+            ],
+            "challenges": [
+                "容易陷入孤立"
+            ],
+            "growthTip": "每個人都有成長的潛力，包括那些讓你失望的人"
+        },
+        "INFP-AH": {
+            "code": "INFP-AH",
+            "baseType": "INFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型調停者",
+            "archetype": "行動派理想家",
+            "description": "打破了 INFP 軟弱的刻板印象。他們有著強大的內在價值觀驅動力，能將理想付諸行動，同時保持對他人的溫暖。",
+            "strengths": [
+                "價值驅動",
+                "行動力強",
+                "人際和諧"
+            ],
+            "challenges": [
+                "可能過度投入自己相信的事業"
+            ],
+            "growthTip": "理想需要健康的身體來實現"
+        },
+        "INFP-AC": {
+            "code": "INFP-AC",
+            "baseType": "INFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型調停者",
+            "archetype": "獨立的藝術家",
+            "description": "極度專注於自己的內在世界和創作。他們可能看起來不近人情，但實際上是在保護自己的創意空間。",
+            "strengths": [
+                "創意深度",
+                "獨立追求",
+                "價值堅定"
+            ],
+            "challenges": [
+                "容易被誤解為冷漠"
+            ],
+            "growthTip": "分享你的作品，你可能會發現意外的知音"
+        },
+        "INFP-OH": {
+            "code": "INFP-OH",
+            "baseType": "INFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型調停者",
+            "archetype": "敏感的療癒者",
+            "description": "最典型的 INFP 形象。內心充滿豐富的情感，對他人的痛苦高度敏感，但也容易因此而受傷。",
+            "strengths": [
+                "深度共情",
+                "創意豐富",
+                "忠誠可靠"
+            ],
+            "challenges": [
+                "容易陷入情緒低谷"
+            ],
+            "growthTip": "學會區分他人的情緒和自己的情緒"
+        },
+        "INFP-OC": {
+            "code": "INFP-OC",
+            "baseType": "INFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型調停者",
+            "archetype": "孤獨的詩人",
+            "description": "在豐富的內心世界與外界之間築起高牆。他們可能有許多未分享的想法和作品，等待著被理解的那一天。",
+            "strengths": [
+                "深度創作",
+                "獨立思考",
+                "價值堅定"
+            ],
+            "challenges": [
+                "容易陷入孤立"
+            ],
+            "growthTip": "找到一個安全的人或社群分享你的內心"
+        },
+        "ENFJ-AH": {
+            "code": "ENFJ-AH",
+            "baseType": "ENFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型主人公",
+            "archetype": "天生的導師",
+            "description": "結合了強大的激勵力與溫暖的人際連結。他們天生具有領袖魅力，能夠激發他人的潛能。",
+            "strengths": [
+                "領導魅力",
+                "激勵他人",
+                "人際和諧"
+            ],
+            "challenges": [
+                "可能過度干涉他人的人生"
+            ],
+            "growthTip": "引導而非控制，讓他人找到自己的道路"
+        },
+        "ENFJ-AC": {
+            "code": "ENFJ-AC",
+            "baseType": "ENFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型主人公",
+            "archetype": "果敢的引導者",
+            "description": "有著明確的目標和標準，不會為了維持關係而妥協。他們能夠做出艱難的決定，即使這意味著得罪人。",
+            "strengths": [
+                "決策果斷",
+                "目標導向",
+                "標準明確"
+            ],
+            "challenges": [
+                "可能被視為不夠通融"
+            ],
+            "growthTip": "有時候過程和結果同樣重要"
+        },
+        "ENFJ-OH": {
+            "code": "ENFJ-OH",
+            "baseType": "ENFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型主人公",
+            "archetype": "過度付出者",
+            "description": "極度關心他人的福祉，有時甚至超過關心自己。他們可能在滿足他人期望與追求自我之間感到矛盾。",
+            "strengths": [
+                "無私奉獻",
+                "深度關懷",
+                "人際敏感"
+            ],
+            "challenges": [
+                "容易忽視自己的需求"
+            ],
+            "growthTip": "照顧好自己才能更好地照顧他人"
+        },
+        "ENFJ-OC": {
+            "code": "ENFJ-OC",
+            "baseType": "ENFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型主人公",
+            "archetype": "矛盾的指導者",
+            "description": "既渴望連結又需要距離。他們可能會突然從親近變得疏遠，讓周圍的人感到困惑。",
+            "strengths": [
+                "深度思考",
+                "獨立判斷",
+                "有選擇地連結"
+            ],
+            "challenges": [
+                "容易給人不一致的感覺"
+            ],
+            "growthTip": "清楚地表達你的需求，讓他人理解你的界限"
+        },
+        "ENFP-AH": {
+            "code": "ENFP-AH",
+            "baseType": "ENFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型競選者",
+            "archetype": "熱情的啟發者",
+            "description": "結合了無限的創意與強大的行動力。他們能夠將想法付諸實踐，同時保持對人的熱情。",
+            "strengths": [
+                "創意執行",
+                "人際魅力",
+                "正能量感染"
+            ],
+            "challenges": [
+                "可能同時追求太多目標"
+            ],
+            "growthTip": "專注於最重要的三件事"
+        },
+        "ENFP-AC": {
+            "code": "ENFP-AC",
+            "baseType": "ENFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型競選者",
+            "archetype": "獨立的創新者",
+            "description": "有著強烈的個人主義傾向，不會為了取悅他人而改變自己。他們追求獨特性，可能顯得有些叛逆。",
+            "strengths": [
+                "獨立創新",
+                "自我堅定",
+                "不隨波逐流"
+            ],
+            "challenges": [
+                "可能被視為不合群"
+            ],
+            "growthTip": "獨特性和連結可以並存"
+        },
+        "ENFP-OH": {
+            "code": "ENFP-OH",
+            "baseType": "ENFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型競選者",
+            "archetype": "敏感的夢想家",
+            "description": "有著豐富的想像力，但對他人的看法非常敏感。他們可能在追求夢想與維持關係之間感到拉扯。",
+            "strengths": [
+                "創意豐富",
+                "人際敏感",
+                "適應力強"
+            ],
+            "challenges": [
+                "容易分心和拖延"
+            ],
+            "growthTip": "設定明確的優先順序，一次專注一件事"
+        },
+        "ENFP-OC": {
+            "code": "ENFP-OC",
+            "baseType": "ENFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型競選者",
+            "archetype": "內省的探索者",
+            "description": "外表可能顯得比典型 ENFP 更內斂。他們有著豐富的內心世界，但不一定願意與每個人分享。",
+            "strengths": [
+                "深度思考",
+                "獨立探索",
+                "選擇性連結"
+            ],
+            "challenges": [
+                "可能讓人覺得難以接近"
+            ],
+            "growthTip": "適時開放一點，你會發現更多志同道合的人"
+        },
+        "ISTJ-AH": {
+            "code": "ISTJ-AH",
+            "baseType": "ISTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型物流師",
+            "archetype": "可靠的守護者",
+            "description": "結合了 ISTJ 的責任感與意外的溫暖。他們不僅完成任務，還會關心團隊成員的狀態。",
+            "strengths": [
+                "責任心強",
+                "人際溫暖",
+                "可靠穩定"
+            ],
+            "challenges": [
+                "可能過度承擔責任"
+            ],
+            "growthTip": "允許他人也承擔責任"
+        },
+        "ISTJ-AC": {
+            "code": "ISTJ-AC",
+            "baseType": "ISTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型物流師",
+            "archetype": "嚴謹的執行者",
+            "description": "最典型的 ISTJ 形象。他們以規則和效率為導向，對感情問題保持距離。",
+            "strengths": [
+                "效率極高",
+                "規則導向",
+                "獨立可靠"
+            ],
+            "challenges": [
+                "可能被視為不近人情"
+            ],
+            "growthTip": "偶爾的人情味不會降低你的專業性"
+        },
+        "ISTJ-OH": {
+            "code": "ISTJ-OH",
+            "baseType": "ISTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型物流師",
+            "archetype": "細膩的照顧者",
+            "description": "在執行任務時會考慮他人的感受，可能會因為想要兼顧一切而感到壓力。",
+            "strengths": [
+                "細心周到",
+                "人際敏感",
+                "責任心強"
+            ],
+            "challenges": [
+                "容易過度擔憂"
+            ],
+            "growthTip": "不是所有事情都需要你來處理"
+        },
+        "ISTJ-OC": {
+            "code": "ISTJ-OC",
+            "baseType": "ISTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型物流師",
+            "archetype": "謹慎的觀察者",
+            "description": "對細節極度關注，同時保持與人的距離。他們可能會反覆檢查自己的工作，追求完美。",
+            "strengths": [
+                "細節導向",
+                "獨立工作",
+                "高標準"
+            ],
+            "challenges": [
+                "容易陷入完美主義"
+            ],
+            "growthTip": "80% 的完成往往比 100% 的計劃更有價值"
+        },
+        "ISFJ-AH": {
+            "code": "ISFJ-AH",
+            "baseType": "ISFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型守衛者",
+            "archetype": "堅定的照護者",
+            "description": "結合了溫暖的關懷與堅定的行動力。他們不只是默默付出，也能在必要時挺身而出保護所愛的人。",
+            "strengths": [
+                "溫暖堅定",
+                "行動力強",
+                "保護欲強"
+            ],
+            "challenges": [
+                "可能過度保護"
+            ],
+            "growthTip": "有時候讓他人自己面對挑戰是更大的愛"
+        },
+        "ISFJ-AC": {
+            "code": "ISFJ-AC",
+            "baseType": "ISFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型守衛者",
+            "archetype": "獨立的守護者",
+            "description": "照顧他人但保持情感距離。他們的關懷更多體現在行動而非言語上。",
+            "strengths": [
+                "行動導向",
+                "獨立可靠",
+                "務實照顧"
+            ],
+            "challenges": [
+                "可能被誤解為冷淡"
+            ],
+            "growthTip": "有時候一句關心的話語和行動同樣重要"
+        },
+        "ISFJ-OH": {
+            "code": "ISFJ-OH",
+            "baseType": "ISFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型守衛者",
+            "archetype": "無私的奉獻者",
+            "description": "最典型的 ISFJ 形象。他們把他人的需求放在自己之前，但也容易因此感到疲憊和被忽視。",
+            "strengths": [
+                "極度體貼",
+                "無私奉獻",
+                "細膩關懷"
+            ],
+            "challenges": [
+                "容易忽視自己的需求"
+            ],
+            "growthTip": "你也值得被照顧"
+        },
+        "ISFJ-OC": {
+            "code": "ISFJ-OC",
+            "baseType": "ISFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型守衛者",
+            "archetype": "內斂的支持者",
+            "description": "默默付出但不善表達。他們可能會感到自己的付出不被理解或認可。",
+            "strengths": [
+                "默默付出",
+                "獨立支持",
+                "細節關注"
+            ],
+            "challenges": [
+                "容易感到被忽視"
+            ],
+            "growthTip": "學會表達你的需求和感受"
+        },
+        "ESTJ-AH": {
+            "code": "ESTJ-AH",
+            "baseType": "ESTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型總經理",
+            "archetype": "人性化的管理者",
+            "description": "結合了高效的管理能力與對團隊的關懷。他們既能達成目標，又能維護團隊士氣。",
+            "strengths": [
+                "高效管理",
+                "團隊關懷",
+                "平衡發展"
+            ],
+            "challenges": [
+                "可能過度介入團隊事務"
+            ],
+            "growthTip": "給團隊空間自主發展"
+        },
+        "ESTJ-AC": {
+            "code": "ESTJ-AC",
+            "baseType": "ESTJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型總經理",
+            "archetype": "鐵面管理者",
+            "description": "最典型的 ESTJ 形象。他們以效率和規則為導向，不會因為人情而妥協。",
+            "strengths": [
+                "效率極高",
+                "規則嚴明",
+                "執行力強"
+            ],
+            "challenges": [
+                "可能被視為不通人情"
+            ],
+            "growthTip": "規則之外也需要彈性"
+        },
+        "ESTJ-OH": {
+            "code": "ESTJ-OH",
+            "baseType": "ESTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型總經理",
+            "archetype": "矛盾的領導者",
+            "description": "在追求效率與照顧團隊之間努力平衡，有時會因為無法做到兩全而感到沮喪。",
+            "strengths": [
+                "團隊導向",
+                "全面考量",
+                "負責任"
+            ],
+            "challenges": [
+                "決策時可能猶豫"
+            ],
+            "growthTip": "接受無法讓所有人滿意的事實"
+        },
+        "ESTJ-OC": {
+            "code": "ESTJ-OC",
+            "baseType": "ESTJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型總經理",
+            "archetype": "嚴謹的審查者",
+            "description": "對細節和標準有極高的要求，但可能在追求完美的過程中變得過於苛刻。",
+            "strengths": [
+                "高標準",
+                "細節導向",
+                "品質控制"
+            ],
+            "challenges": [
+                "可能過於苛責"
+            ],
+            "growthTip": "適度的讚美比一味的批評更能激勵人"
+        },
+        "ESFJ-AH": {
+            "code": "ESFJ-AH",
+            "baseType": "ESFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型執政官",
+            "archetype": "社交核心",
+            "description": "結合了強大的社交能力與堅定的行動力。他們是社群的黏合劑，能夠組織活動並確保每個人都被照顧到。",
+            "strengths": [
+                "社交達人",
+                "組織能力",
+                "關懷周到"
+            ],
+            "challenges": [
+                "可能過度干涉"
+            ],
+            "growthTip": "尊重他人的獨處需求"
+        },
+        "ESFJ-AC": {
+            "code": "ESFJ-AC",
+            "baseType": "ESFJ",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型執政官",
+            "archetype": "務實的組織者",
+            "description": "專注於把事情做好，而不只是維護關係。他們的關懷更多體現在行動而非情感表達上。",
+            "strengths": [
+                "務實高效",
+                "組織能力",
+                "行動關懷"
+            ],
+            "challenges": [
+                "可能被誤解為不夠熱情"
+            ],
+            "growthTip": "偶爾的情感表達能加深連結"
+        },
+        "ESFJ-OH": {
+            "code": "ESFJ-OH",
+            "baseType": "ESFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型執政官",
+            "archetype": "過度關懷者",
+            "description": "極度在意他人的感受和需求，有時甚至超過關心自己。容易因為無法讓所有人開心而感到焦慮。",
+            "strengths": [
+                "極度體貼",
+                "人際敏感",
+                "樂於助人"
+            ],
+            "challenges": [
+                "容易感到被利用"
+            ],
+            "growthTip": "你不需要為每個人的情緒負責"
+        },
+        "ESFJ-OC": {
+            "code": "ESFJ-OC",
+            "baseType": "ESFJ",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型執政官",
+            "archetype": "選擇性的照顧者",
+            "description": "只對親近的人展現溫暖，對外人保持距離。他們可能在擴展社交圈和保護自己之間猶豫。",
+            "strengths": [
+                "深度連結",
+                "選擇性關懷",
+                "忠誠可靠"
+            ],
+            "challenges": [
+                "可能顯得不夠熱情"
+            ],
+            "growthTip": "適度開放能帶來意外的友誼"
+        },
+        "ISTP-AH": {
+            "code": "ISTP-AH",
+            "baseType": "ISTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型鑒賞家",
+            "archetype": "親切的技師",
+            "description": "結合了動手能力與意外的社交技巧。他們不只會修東西，還會耐心地教導他人。",
+            "strengths": [
+                "技術精湛",
+                "耐心教導",
+                "親切隨和"
+            ],
+            "challenges": [
+                "可能被過多社交請求拖累"
+            ],
+            "growthTip": "學會說不，保護你的獨處時間"
+        },
+        "ISTP-AC": {
+            "code": "ISTP-AC",
+            "baseType": "ISTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型鑒賞家",
+            "archetype": "冷酷的技術專家",
+            "description": "最典型的 ISTP 形象。他們專注於技術和效率，對社交寒暄毫無興趣。",
+            "strengths": [
+                "技術極致",
+                "獨立高效",
+                "冷靜分析"
+            ],
+            "challenges": [
+                "可能被視為不合群"
+            ],
+            "growthTip": "偶爾的社交能帶來意外的合作機會"
+        },
+        "ISTP-OH": {
+            "code": "ISTP-OH",
+            "baseType": "ISTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型鑒賞家",
+            "archetype": "敏感的創作者",
+            "description": "有著精湛的技術，但對他人的看法比較在意。可能會因為追求完美而拖延完成作品。",
+            "strengths": [
+                "精益求精",
+                "人際敏感",
+                "創意技術"
+            ],
+            "challenges": [
+                "容易拖延完成"
+            ],
+            "growthTip": "完成比完美更重要"
+        },
+        "ISTP-OC": {
+            "code": "ISTP-OC",
+            "baseType": "ISTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型鑒賞家",
+            "archetype": "內省的工匠",
+            "description": "極度專注於自己的技藝，同時對自己的作品有著高標準。可能會因為不滿意而不斷重做。",
+            "strengths": [
+                "極高標準",
+                "深度專注",
+                "獨立創作"
+            ],
+            "challenges": [
+                "過度自我批判"
+            ],
+            "growthTip": "接受「足夠好」也是一種勝利"
+        },
+        "ISFP-AH": {
+            "code": "ISFP-AH",
+            "baseType": "ISFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型探險家",
+            "archetype": "行動派藝術家",
+            "description": "結合了藝術敏感度與執行力。他們不只有創意，還能將想法落地，同時保持對他人的溫暖。",
+            "strengths": [
+                "創意執行",
+                "人際和諧",
+                "行動力強"
+            ],
+            "challenges": [
+                "可能過度承諾"
+            ],
+            "growthTip": "量力而行，專注於最重要的項目"
+        },
+        "ISFP-AC": {
+            "code": "ISFP-AC",
+            "baseType": "ISFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型探險家",
+            "archetype": "獨立的藝術家",
+            "description": "極度專注於自己的藝術追求，不受他人影響。他們有著強烈的個人風格和審美。",
+            "strengths": [
+                "藝術獨創",
+                "獨立追求",
+                "審美獨特"
+            ],
+            "challenges": [
+                "可能被視為難以接近"
+            ],
+            "growthTip": "分享你的作品，你可能會發現意外的欣賞者"
+        },
+        "ISFP-OH": {
+            "code": "ISFP-OH",
+            "baseType": "ISFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型探險家",
+            "archetype": "敏感的藝術靈魂",
+            "description": "最典型的 ISFP 形象。他們有著豐富的情感世界，對美有著獨特的感知，但也容易受傷。",
+            "strengths": [
+                "藝術敏感",
+                "情感豐富",
+                "溫暖共情"
+            ],
+            "challenges": [
+                "容易受到批評影響"
+            ],
+            "growthTip": "並非每個意見都值得在意"
+        },
+        "ISFP-OC": {
+            "code": "ISFP-OC",
+            "baseType": "ISFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型探險家",
+            "archetype": "內斂的創作者",
+            "description": "有著豐富的內心世界，但不輕易向他人展示。他們的作品可能比言語更能表達他們的想法。",
+            "strengths": [
+                "深度創作",
+                "獨立風格",
+                "含蓄表達"
+            ],
+            "challenges": [
+                "可能讓人覺得難以了解"
+            ],
+            "growthTip": "找到願意傾聽的人分享你的內心"
+        },
+        "ESTP-AH": {
+            "code": "ESTP-AH",
+            "baseType": "ESTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型企業家",
+            "archetype": "魅力行動者",
+            "description": "結合了冒險精神與人際魅力。他們不只能快速行動，還能帶動周圍的人一起參與。",
+            "strengths": [
+                "行動魅力",
+                "團隊帶動",
+                "適應力強"
+            ],
+            "challenges": [
+                "可能過度冒險"
+            ],
+            "growthTip": "有時候停下來思考也是一種智慧"
+        },
+        "ESTP-AC": {
+            "code": "ESTP-AC",
+            "baseType": "ESTP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型企業家",
+            "archetype": "冷酷的冒險家",
+            "description": "最典型的 ESTP 形象。他們行動迅速，以結果為導向，不會被人情世故束縛。",
+            "strengths": [
+                "行動迅速",
+                "結果導向",
+                "獨立決策"
+            ],
+            "challenges": [
+                "可能顯得不顧他人"
+            ],
+            "growthTip": "考慮他人的感受能帶來更多合作機會"
+        },
+        "ESTP-OH": {
+            "code": "ESTP-OH",
+            "baseType": "ESTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型企業家",
+            "archetype": "謹慎的行動者",
+            "description": "比典型 ESTP 更謹慎，會考慮行動的後果对他人的影響。",
+            "strengths": [
+                "謹慎行動",
+                "人際考量",
+                "平衡發展"
+            ],
+            "challenges": [
+                "可能行動不夠快"
+            ],
+            "growthTip": "有時候快速行動比完美計劃更重要"
+        },
+        "ESTP-OC": {
+            "code": "ESTP-OC",
+            "baseType": "ESTP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型企業家",
+            "archetype": "內省的行動者",
+            "description": "雖然行動導向，但會花更多時間在內心思考。可能顯得比典型 ESTP 更深沉。",
+            "strengths": [
+                "深思後行",
+                "獨立判斷",
+                "策略行動"
+            ],
+            "challenges": [
+                "可能過度分析"
+            ],
+            "growthTip": "相信你的本能，它通常是對的"
+        },
+        "ESFP-AH": {
+            "code": "ESFP-AH",
+            "baseType": "ESFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "H"
+            },
+            "name": "果斷溫暖型表演者",
+            "archetype": "天生的表演家",
+            "description": "結合了表演魅力與真誠的人際連結。他們不只是吸引注意力，還能讓周圍的人感到被重視。",
+            "strengths": [
+                "表演魅力",
+                "人際真誠",
+                "正能量"
+            ],
+            "challenges": [
+                "可能過度追求關注"
+            ],
+            "growthTip": "有時候退居幕後也是一種優雅"
+        },
+        "ESFP-AC": {
+            "code": "ESFP-AC",
+            "baseType": "ESFP",
+            "dimensions": {
+                "AO": "A",
+                "HC": "C"
+            },
+            "name": "果斷高冷型表演者",
+            "archetype": "獨立的藝人",
+            "description": "有著強烈的個人風格，不會為了取悅觀眾而改變自己。他們的表演更具藝術性。",
+            "strengths": [
+                "藝術獨立",
+                "個人風格",
+                "自信表達"
+            ],
+            "challenges": [
+                "可能顯得不夠親近"
+            ],
+            "growthTip": "適度的互動能增強你的影響力"
+        },
+        "ESFP-OH": {
+            "code": "ESFP-OH",
+            "baseType": "ESFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "H"
+            },
+            "name": "糾結溫暖型表演者",
+            "archetype": "敏感的藝人",
+            "description": "極度在意觀眾的反應，可能會因為負面評價而受傷。他們渴望被認可和喜愛。",
+            "strengths": [
+                "觀眾敏感",
+                "人際溫暖",
+                "真誠表達"
+            ],
+            "challenges": [
+                "容易受批評影響"
+            ],
+            "growthTip": "並非每個人都需要喜歡你"
+        },
+        "ESFP-OC": {
+            "code": "ESFP-OC",
+            "baseType": "ESFP",
+            "dimensions": {
+                "AO": "O",
+                "HC": "C"
+            },
+            "name": "糾結高冷型表演者",
+            "archetype": "內省的表演者",
+            "description": "比典型 ESFP 更內斂，可能更偏向於創作而非即興表演。他們的作品常有深度。",
+            "strengths": [
+                "深度創作",
+                "獨立風格",
+                "含蓄魅力"
+            ],
+            "challenges": [
+                "可能讓人覺得難以捉摸"
+            ],
+            "growthTip": "適時展現真實的自己"
+        }
+    }
+}

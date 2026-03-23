@@ -1,0 +1,782 @@
+[
+    {
+        "id": 1,
+        "text": "在社交場合中，我通常會主動向陌生人自我介紹，並促進他人認識彼此。",
+        "dimension": "E_I",
+        "facet": "Initiating_Receiving",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 主動啟動 vs 被動接受"
+    },
+    {
+        "id": 2,
+        "text": "我偏好讓對話自然發生，而非刻意去發起交談。",
+        "dimension": "E_I",
+        "facet": "Initiating_Receiving",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 主動啟動 vs 被動接受"
+    },
+    {
+        "id": 3,
+        "text": "我認為與他人分享感受和想法是建立關係的必要條件。",
+        "dimension": "E_I",
+        "facet": "Expressive_Contained",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 表達 vs 內斂"
+    },
+    {
+        "id": 4,
+        "text": "我傾向將情感與觀點保留在內部，僅與極少數信任的人分享。",
+        "dimension": "E_I",
+        "facet": "Expressive_Contained",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 表達 vs 內斂"
+    },
+    {
+        "id": 5,
+        "text": "我享受廣泛的社交網絡，喜歡加入各類不同的團體。",
+        "dimension": "E_I",
+        "facet": "Gregarious_Intimate",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 群體 vs 親密"
+    },
+    {
+        "id": 6,
+        "text": "與少數深交的朋友一對一交流，比在大型社交場合更讓我感到滿足。",
+        "dimension": "E_I",
+        "facet": "Gregarious_Intimate",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 群體 vs 親密"
+    },
+    {
+        "id": 7,
+        "text": "我偏好透過直接參與、提問和動手操作來學習新事物。",
+        "dimension": "E_I",
+        "facet": "Active_Reflective",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 活躍 vs 反思"
+    },
+    {
+        "id": 8,
+        "text": "我需要在安靜的環境中先觀察和思考，經過深思熟慮後才行動。",
+        "dimension": "E_I",
+        "facet": "Active_Reflective",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 活躍 vs 反思"
+    },
+    {
+        "id": 9,
+        "text": "我喜歡成為注意力的焦點，說話時充滿活力與感染力。",
+        "dimension": "E_I",
+        "facet": "Enthusiastic_Quiet",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 熱情 vs 安靜"
+    },
+    {
+        "id": 10,
+        "text": "我偏好保持低調，不喜歡成為眾人矚目的焦點。",
+        "dimension": "E_I",
+        "facet": "Enthusiastic_Quiet",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 熱情 vs 安靜"
+    },
+    {
+        "id": 11,
+        "text": "我更關注有形的、可感知的事實與具體細節。",
+        "dimension": "S_N",
+        "facet": "Concrete_Abstract",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 具體 vs 抽象"
+    },
+    {
+        "id": 12,
+        "text": "我更關注事物背後的觀念、模式與象徵意義。",
+        "dimension": "S_N",
+        "facet": "Concrete_Abstract",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 具體 vs 抽象"
+    },
+    {
+        "id": 13,
+        "text": "解決問題時，我強調實用性、效率與常識，偏好能帶來具體成果的方案。",
+        "dimension": "S_N",
+        "facet": "Realistic_Imaginative",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 實際 vs 想像"
+    },
+    {
+        "id": 14,
+        "text": "我重視創意本身及其新穎性，願意為潛在的巨大收益承擔風險。",
+        "dimension": "S_N",
+        "facet": "Realistic_Imaginative",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 實際 vs 想像"
+    },
+    {
+        "id": 15,
+        "text": "我偏好使用已知且熟悉的方法，重視過程的可操作性與具體成效。",
+        "dimension": "S_N",
+        "facet": "Practical_Conceptual",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 實務 vs 概念"
+    },
+    {
+        "id": 16,
+        "text": "我享受複雜性，認為知識本身即是目的，喜歡探討「為什麼」。",
+        "dimension": "S_N",
+        "facet": "Practical_Conceptual",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 實務 vs 概念"
+    },
+    {
+        "id": 17,
+        "text": "面對新任務時，我會先尋求前人的經驗或範例，信任第一手的觀察。",
+        "dimension": "S_N",
+        "facet": "Experiential_Theoretical",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 體驗 vs 理論"
+    },
+    {
+        "id": 18,
+        "text": "我喜歡尋找事物背後的普遍規律，傾向於先理解原理再進行操作。",
+        "dimension": "S_N",
+        "facet": "Experiential_Theoretical",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 體驗 vs 理論"
+    },
+    {
+        "id": 19,
+        "text": "我認同並維護既有的社會習俗與傳統，從慣例中獲得安全感。",
+        "dimension": "S_N",
+        "facet": "Traditional_Original",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 傳統 vs 原創"
+    },
+    {
+        "id": 20,
+        "text": "我追求獨特性與創新，總是試圖尋找新的方法來做事。",
+        "dimension": "S_N",
+        "facet": "Traditional_Original",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 傳統 vs 原創"
+    },
+    {
+        "id": 21,
+        "text": "做決策時，我以客觀、非個人的標準進行分析，追求公正性。",
+        "dimension": "T_F",
+        "facet": "Logical_Empathetic",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 邏輯 vs 同理"
+    },
+    {
+        "id": 22,
+        "text": "做決策時，我將考量置於人際關係的脈絡中，重視和諧與他人感受。",
+        "dimension": "T_F",
+        "facet": "Logical_Empathetic",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 邏輯 vs 同理"
+    },
+    {
+        "id": 23,
+        "text": "我認為規則應一視同仁，依賴因果邏輯，即使結果可能令人不快。",
+        "dimension": "T_F",
+        "facet": "Reasonable_Compassionate",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 合理 vs 慈悲"
+    },
+    {
+        "id": 24,
+        "text": "我認為每個情況都是獨特的，應根據具體的人際需求彈性調整規則。",
+        "dimension": "T_F",
+        "facet": "Reasonable_Compassionate",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 合理 vs 慈悲"
+    },
+    {
+        "id": 25,
+        "text": "我傾向透過提問與挑戰來釐清真相，認為建設性的衝突是解決問題的必要過程。",
+        "dimension": "T_F",
+        "facet": "Questioning_Accommodating",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 質疑 vs 包容"
+    },
+    {
+        "id": 26,
+        "text": "我傾向尋求共識與和諧，在對話中會優先考慮他人的感受，避免直接衝突。",
+        "dimension": "T_F",
+        "facet": "Questioning_Accommodating",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 質疑 vs 包容"
+    },
+    {
+        "id": 27,
+        "text": "面對新想法時，我習慣先尋找缺陷與不足之處，需要證據證明可行。",
+        "dimension": "T_F",
+        "facet": "Critical_Accepting",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 批判 vs 接受"
+    },
+    {
+        "id": 28,
+        "text": "面對新想法時，我習慣先看優點與可能性，對新想法持開放與信任的態度。",
+        "dimension": "T_F",
+        "facet": "Critical_Accepting",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 批判 vs 接受"
+    },
+    {
+        "id": 29,
+        "text": "一旦做出決策，我會果斷執行，不畏懼面對阻力或得罪他人。",
+        "dimension": "T_F",
+        "facet": "Tough_Tender",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 強硬 vs 溫和"
+    },
+    {
+        "id": 30,
+        "text": "我傾向透過影響力與說服來推動事情，希望在達成目標的同時維持良好關係。",
+        "dimension": "T_F",
+        "facet": "Tough_Tender",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 強硬 vs 溫和"
+    },
+    {
+        "id": 31,
+        "text": "我喜歡井然有序的生活，偏好分類、歸檔與標準化流程。",
+        "dimension": "J_P",
+        "facet": "Systematic_Casual",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 系統性 vs 隨性"
+    },
+    {
+        "id": 32,
+        "text": "我偏好輕鬆自在的生活，認為過度的系統是一種負擔，善於在混亂中運作。",
+        "dimension": "J_P",
+        "facet": "Systematic_Casual",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 系統性 vs 隨性"
+    },
+    {
+        "id": 33,
+        "text": "我喜歡提前規劃未來的活動與工作進度，計劃給予我掌控感與安全感。",
+        "dimension": "J_P",
+        "facet": "Planful_OpenEnded",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 計劃 vs 開放"
+    },
+    {
+        "id": 34,
+        "text": "我不喜歡過早承諾，傾向於保持選擇的開放性，到了最後一刻再做決定。",
+        "dimension": "J_P",
+        "facet": "Planful_OpenEnded",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 計劃 vs 開放"
+    },
+    {
+        "id": 35,
+        "text": "我習慣在截止日期前很久就開始工作，透過穩定的進度來避免壓力。",
+        "dimension": "J_P",
+        "facet": "EarlyStarting_PressurePrompted",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 提早啟動 vs 壓力激發"
+    },
+    {
+        "id": 36,
+        "text": "我需要截止日期的壓力來啟動工作動力，在期限逼近時表現更好。",
+        "dimension": "J_P",
+        "facet": "EarlyStarting_PressurePrompted",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 提早啟動 vs 壓力激發"
+    },
+    {
+        "id": 37,
+        "text": "我喜歡按表操課，依賴行事曆與時間表來安排每一天。",
+        "dimension": "J_P",
+        "facet": "Scheduled_Spontaneous",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 預定 vs 自發"
+    },
+    {
+        "id": 38,
+        "text": "我覺得時間表是一種束縛，偏好根據當下的狀態決定做什麼。",
+        "dimension": "J_P",
+        "facet": "Scheduled_Spontaneous",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 預定 vs 自發"
+    },
+    {
+        "id": 39,
+        "text": "開始任務前，我需要詳細的步驟與順序，傾向於按照既定流程執行。",
+        "dimension": "J_P",
+        "facet": "Methodical_Emergent",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 方法 vs 應變"
+    },
+    {
+        "id": 40,
+        "text": "我不需要事先知道所有步驟，傾向於邊做邊調整，能快速適應變化。",
+        "dimension": "J_P",
+        "facet": "Methodical_Emergent",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 方法 vs 應變"
+    },
+    {
+        "id": 41,
+        "text": "當面對問題時，你更傾向於：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Ti vs Te",
+        "options": [
+            {
+                "text": "從個人邏輯框架出發，深入分析問題的本質（內省式分析）",
+                "value": "Ti"
+            },
+            {
+                "text": "參考外部標準和最佳實踐，尋求高效的解決方案（外向式執行）",
+                "value": "Te"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "text": "在獲取新信息時，你更習慣：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Ni vs Ne",
+        "options": [
+            {
+                "text": "收斂思考，將信息整合成一個核心洞見或預測",
+                "value": "Ni"
+            },
+            {
+                "text": "發散思考，探索多種可能性和關聯",
+                "value": "Ne"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "text": "在做價值判斷時，你更依賴：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Fi vs Fe",
+        "options": [
+            {
+                "text": "內在的價值觀和個人信念（個人道德羅盤）",
+                "value": "Fi"
+            },
+            {
+                "text": "群體的和諧與他人的需求（社會情感連結）",
+                "value": "Fe"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "text": "在處理當下信息時，你更傾向於：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Si vs Se",
+        "options": [
+            {
+                "text": "與過去的經驗和記憶進行比較（經驗參照）",
+                "value": "Si"
+            },
+            {
+                "text": "完全沉浸在當前的感官體驗中（即時感知）",
+                "value": "Se"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "text": "當你長期處於壓力下時，你最可能出現的反應是：",
+        "dimension": "Grip",
+        "type": "choice",
+        "source": "Naomi Quenk - In the Grip (劣勢功能爆發)",
+        "options": [
+            {
+                "text": "變得過度批判自己和他人，強迫性地想要「完成事情」，對效率產生病態追求",
+                "value": "inferior_Te",
+                "types": [
+                    "ISFP",
+                    "INFP"
+                ]
+            },
+            {
+                "text": "沉溺於感官享樂（如暴飲暴食、衝動購物），覺得外在世界充滿敵意",
+                "value": "inferior_Se",
+                "types": [
+                    "INFJ",
+                    "INTJ"
+                ]
+            },
+            {
+                "text": "變得情緒化、過度敏感，產生強烈的受害者心態和自憐感",
+                "value": "inferior_Fi",
+                "types": [
+                    "ESTJ",
+                    "ENTJ"
+                ]
+            },
+            {
+                "text": "退縮抑鬱，強迫性地關注細節，陷入對過去錯誤的無盡反芻",
+                "value": "inferior_Si",
+                "types": [
+                    "ENFP",
+                    "ENTP"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "text": "在極度疲憊或壓力下，你會：",
+        "dimension": "Grip",
+        "type": "choice",
+        "source": "Naomi Quenk - In the Grip (劣勢功能爆發)",
+        "options": [
+            {
+                "text": "變得冷漠、尖酸刻薄，用扭曲的邏輯攻擊他人或陷入自我批判的迴圈",
+                "value": "inferior_Ti",
+                "types": [
+                    "ESFJ",
+                    "ENFJ"
+                ]
+            },
+            {
+                "text": "產生毫無根據的懷疑或陰謀論，看到並不存在的「厄運徵兆」",
+                "value": "inferior_Ni",
+                "types": [
+                    "ESTP",
+                    "ESFP"
+                ]
+            },
+            {
+                "text": "被「災難化」的想像淹沒，不斷想「萬一...怎麼辦？」，決策癱瘓",
+                "value": "inferior_Ne",
+                "types": [
+                    "ISTJ",
+                    "ISFJ"
+                ]
+            },
+            {
+                "text": "變得情緒不穩、易怒，出現戲劇化的情緒爆發，隨後感到極度尷尬",
+                "value": "inferior_Fe",
+                "types": [
+                    "ISTP",
+                    "INTP"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "text": "在非正式的團體中，若沒有熟人引介，我會感到有些迷失。",
+        "dimension": "E_I",
+        "facet": "Initiating_Receiving",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 主動啟動 vs 被動接受"
+    },
+    {
+        "id": 48,
+        "text": "我透過即時的雙向交流來釐清自己的思緒，邊想邊說。",
+        "dimension": "E_I",
+        "facet": "Expressive_Contained",
+        "polarity": "E",
+        "type": "likert",
+        "source": "MBTI Step II - 表達 vs 內斂"
+    },
+    {
+        "id": 49,
+        "text": "我對於無法驗證的理論感到不耐，信任事實與字面意義。",
+        "dimension": "S_N",
+        "facet": "Concrete_Abstract",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 具體 vs 抽象"
+    },
+    {
+        "id": 50,
+        "text": "現實只是激發創意的起點，真正的意義在於事物背後的關聯。",
+        "dimension": "S_N",
+        "facet": "Concrete_Abstract",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 具體 vs 抽象"
+    },
+    {
+        "id": 51,
+        "text": "我認為「沒壞就別修」，傾向沿用過去成功的經驗。",
+        "dimension": "S_N",
+        "facet": "Experiential_Theoretical",
+        "polarity": "S",
+        "type": "likert",
+        "source": "MBTI Step II - 體驗 vs 理論"
+    },
+    {
+        "id": 52,
+        "text": "我視「與眾不同」為一種價值，不介意與主流背道而馳。",
+        "dimension": "S_N",
+        "facet": "Traditional_Original",
+        "polarity": "N",
+        "type": "likert",
+        "source": "MBTI Step II - 傳統 vs 原創"
+    },
+    {
+        "id": 53,
+        "text": "我能夠直接、客觀地指出他人的錯誤，即使可能傷害對方。",
+        "dimension": "T_F",
+        "facet": "Tough_Tender",
+        "polarity": "T",
+        "type": "likert",
+        "source": "MBTI Step II - 強硬 vs 溫和"
+    },
+    {
+        "id": 54,
+        "text": "我自然地能夠感受到周圍人的情緒狀態，並試圖維護和諧。",
+        "dimension": "T_F",
+        "facet": "Logical_Empathetic",
+        "polarity": "F",
+        "type": "likert",
+        "source": "MBTI Step II - 邏輯 vs 同理"
+    },
+    {
+        "id": 55,
+        "text": "完成任務後我會感到滿足，並喜歡在清單上劃掉已完成的項目。",
+        "dimension": "J_P",
+        "facet": "Methodical_Emergent",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 方法 vs 應變"
+    },
+    {
+        "id": 56,
+        "text": "對於突如其來的時間壓力，我會感到極度焦慮。",
+        "dimension": "J_P",
+        "facet": "EarlyStarting_PressurePrompted",
+        "polarity": "J",
+        "type": "likert",
+        "source": "MBTI Step II - 提早啟動 vs 壓力激發"
+    },
+    {
+        "id": 57,
+        "text": "我能靈活應對突發事件，並享受生活中的驚喜。",
+        "dimension": "J_P",
+        "facet": "Scheduled_Spontaneous",
+        "polarity": "P",
+        "type": "likert",
+        "source": "MBTI Step II - 預定 vs 自發"
+    },
+    {
+        "id": 58,
+        "text": "當組織團隊時，你優先考慮：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Te vs Fe",
+        "options": [
+            {
+                "text": "效率、結構和明確的目標",
+                "value": "Te"
+            },
+            {
+                "text": "團隊氛圍、成員感受和關係和諧",
+                "value": "Fe"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "text": "在學習新技能時，你偏好：",
+        "dimension": "Cognitive",
+        "type": "binary",
+        "source": "認知功能評估 - Si vs Se",
+        "options": [
+            {
+                "text": "按照步驟漸進式學習，參考已有的方法和經驗",
+                "value": "Si"
+            },
+            {
+                "text": "動手嘗試，在實際操作中即時學習",
+                "value": "Se"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "text": "我更願意花時間思考一個問題，直到找到最準確的答案。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Ti",
+        "source": "認知功能評估 - Ti 指標"
+    },
+    {
+        "id": 61,
+        "text": "我相信每個問題都有一個最優的解決方案，需要系統地找出來。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Te",
+        "source": "認知功能評估 - Te 指標"
+    },
+    {
+        "id": 62,
+        "text": "我經常會突然「看見」事物的發展方向或結果。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Ni",
+        "source": "認知功能評估 - Ni 指標"
+    },
+    {
+        "id": 63,
+        "text": "我的思維經常在不同想法之間跳躍，發現意想不到的聯繫。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Ne",
+        "source": "認知功能評估 - Ne 指標"
+    },
+    {
+        "id": 64,
+        "text": "我對傳統和習俗有著深厚的尊重，它們為我提供穩定感。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Si",
+        "source": "認知功能評估 - Si 指標"
+    },
+    {
+        "id": 65,
+        "text": "我喜歡嘗試新事物和新體驗，活在當下。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Se",
+        "source": "認知功能評估 - Se 指標"
+    },
+    {
+        "id": 66,
+        "text": "我很在乎自己是否過著真實、符合內心價值的生活。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Fi",
+        "source": "認知功能評估 - Fi 指標"
+    },
+    {
+        "id": 67,
+        "text": "我自然地會注意到群體的氛圍，並試圖維護和諧。",
+        "dimension": "Cognitive",
+        "type": "likert",
+        "polarity": "Fe",
+        "source": "認知功能評估 - Fe 指標"
+    },
+    {
+        "id": 68,
+        "text": "在嘈雜的環境中，我仍然能夠專注於自己的內心世界。",
+        "dimension": "E_I",
+        "facet": "Expressive_Contained",
+        "polarity": "I",
+        "type": "likert",
+        "source": "MBTI Step II - 表達 vs 內斂"
+    },
+    {
+        "id": 69,
+        "text": "當面臨重要決定時，我能夠果斷行動，不會過度糾結於可能的後果。",
+        "dimension": "A_O",
+        "polarity": "A",
+        "type": "likert",
+        "source": "APESK 64型 - 果斷 vs 糾結"
+    },
+    {
+        "id": 70,
+        "text": "我傾向於反覆思考一個問題的各種可能性，有時會因此延遲行動。",
+        "dimension": "A_O",
+        "polarity": "O",
+        "type": "likert",
+        "source": "APESK 64型 - 果斷 vs 糾結"
+    },
+    {
+        "id": 71,
+        "text": "面對壓力時，我能保持情緒穩定，不容易受外界評價影響。",
+        "dimension": "A_O",
+        "polarity": "A",
+        "type": "likert",
+        "source": "APESK 64型 - 果斷 vs 糾結"
+    },
+    {
+        "id": 72,
+        "text": "我經常對自己的表現感到不滿意，追求完美讓我感到壓力。",
+        "dimension": "A_O",
+        "polarity": "O",
+        "type": "likert",
+        "source": "APESK 64型 - 果斷 vs 糾結"
+    },
+    {
+        "id": 73,
+        "text": "我天生樂於照顧他人，會主動關心周圍人的需求和感受。",
+        "dimension": "H_C",
+        "polarity": "H",
+        "type": "likert",
+        "source": "APESK 64型 - 溫暖 vs 高冷"
+    },
+    {
+        "id": 74,
+        "text": "我更喜歡保持情感距離，不太喜歡過於親密的人際關係。",
+        "dimension": "H_C",
+        "polarity": "C",
+        "type": "likert",
+        "source": "APESK 64型 - 溫暖 vs 高冷"
+    },
+    {
+        "id": 75,
+        "text": "在團隊中，我常常扮演「黏合劑」的角色，努力維護成員之間的關係。",
+        "dimension": "H_C",
+        "polarity": "H",
+        "type": "likert",
+        "source": "APESK 64型 - 溫暖 vs 高冷"
+    },
+    {
+        "id": 76,
+        "text": "對我來說，把事情做好比維護人際關係更重要。",
+        "dimension": "H_C",
+        "polarity": "C",
+        "type": "likert",
+        "source": "APESK 64型 - 溫暖 vs 高冷"
+    }
+]
